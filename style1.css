@@ -258,3 +258,73 @@ nav a.active {
   opacity: 0.9;
 }
 
+.cta {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+/* ===== Page banner ===== */
+.page-banner {
+  background: var(--primary-soft);
+  text-align: center;
+  padding: 70px 0 50px;
+}
+
+.page-banner h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+}
+
+.page-banner p {
+  color: var(--muted);
+}
+
+/* ===== Services ===== */
+.services {
+  padding: 60px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.service-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  transition: all 0.2s;
+}
+
+.service-card:hover {
+  box-shadow: var(--shadow);
+  border-color: var(--primary);
+  transform: translateY(-3px);
+}
+
+.service-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+  color: var(--primary-dark);
+}
+
+.service-card p {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
