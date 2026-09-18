@@ -40,6 +40,7 @@ a {
   text-decoration: none;
 }
 
+
 /* ===== Header ===== */
 .site-header {
   position: sticky;
@@ -66,7 +67,6 @@ a {
 .logo span {
   color: var(--primary);
 }
-
 nav {
   display: flex;
   gap: 28px;
@@ -106,7 +106,6 @@ nav a.active {
   border-radius: 2px;
 }
 
-/* ===== Buttons ===== */
 .btn {
   display: inline-block;
   padding: 12px 28px;
@@ -143,7 +142,6 @@ nav a.active {
   width: 100%;
 }
 
-/* ===== Hero ===== */
 .hero {
   padding: 100px 0 70px;
   text-align: center;
@@ -199,7 +197,6 @@ nav a.active {
   margin-bottom: 40px;
 }
 
-/* ===== Features ===== */
 .features {
   padding: 70px 0;
 }
@@ -234,7 +231,6 @@ nav a.active {
   font-size: 0.92rem;
 }
 
-/* ===== Stats ===== */
 .stats {
   background: var(--primary);
   padding: 60px 0;
@@ -260,7 +256,6 @@ nav a.active {
   opacity: 0.9;
 }
 
-/* ===== CTA ===== */
 .cta {
   padding: 70px 0;
   text-align: center;
@@ -277,7 +272,6 @@ nav a.active {
   margin-bottom: 24px;
 }
 
-/* ===== Page banner ===== */
 .page-banner {
   background: var(--primary-soft);
   text-align: center;
@@ -295,8 +289,9 @@ nav a.active {
   color: var(--muted);
 }
 
-/* ===== Services ===== */
-.services {
+.service-card:hover {
+  box-shadow: var(--shadow);
+  bor.services {
   padding: 60px 0;
 }
 
@@ -314,9 +309,7 @@ nav a.active {
   transition: all 0.2s;
 }
 
-.service-card:hover {
-  box-shadow: var(--shadow);
-  border-color: var(--primary);
+der-color: var(--primary);
   transform: translateY(-3px);
 }
 
@@ -331,7 +324,6 @@ nav a.active {
   font-size: 0.92rem;
 }
 
-/* ===== Contact ===== */
 .contact {
   padding: 60px 0;
 }
@@ -425,7 +417,6 @@ nav a.active {
   color: #dc2626;
 }
 
-/* ===== Footer ===== */
 .site-footer {
   background: #0f172a;
   color: #cbd5e1;
@@ -476,7 +467,6 @@ nav a.active {
   font-size: 0.85rem;
 }
 
-/* ===== Responsive ===== */
 @media (max-width: 800px) {
   .features-grid,
   .services-grid {
@@ -534,3 +524,4 @@ nav a.active {
     grid-template-columns: 1fr;
   }
 }
+
